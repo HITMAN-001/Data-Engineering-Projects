@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?><message:GenericData xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:generic="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic" xsi:schemaLocation="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message https://sdw-wsrest.ecb.europa.eu:443/vocabulary/sdmx/2_1/SDMXMessage.xsd http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common https://sdw-wsrest.ecb.europa.eu:443/vocabulary/sdmx/2_1/SDMXCommon.xsd http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic https://sdw-wsrest.ecb.europa.eu:443/vocabulary/sdmx/2_1/SDMXDataGeneric.xsd">
+<message:Header>
+<message:ID>812e854c-acbf-43cb-a392-9d77f20dbbb0</message:ID>
+<message:Test>false</message:Test>
+<message:Prepared>2022-06-10T06:12:24.221+02:00</message:Prepared>
+<message:Sender id="ECB"/>
+<message:Structure structureID="BOP" dimensionAtObservation="TIME_PERIOD">
+<common:Structure>
+<URN>urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=IMF:BOP(1.5)</URN>
+</common:Structure>
+</message:Structure>
+</message:Header>
+<message:DataSet action="Replace" validFromDate="2022-06-10T06:12:24.221+02:00" structureRef="BOP">
+<generic:Series>
+<generic:SeriesKey>
+<generic:Value id="FREQ" value="Q"/>
+<generic:Value id="ADJUSTMENT" value="N"/>
+<generic:Value id="REF_AREA" value="I8"/>
+<generic:Value id="COUNTERPART_AREA" value="W1"/>
+<generic:Value id="REF_SECTOR" value="S1Q"/>
+<generic:Value id="COUNTERPART_SECTOR" value="S1"/>
+<generic:Value id="FLOW_STOCK_ENTRY" value="T"/>
+<generic:Value id="ACCOUNTING_ENTRY" value="A"/>
+<generic:Value id="INT_ACC_ITEM" value="FA"/>
+<generic:Value id="FUNCTIONAL_CAT" value="D"/>
+<generic:Value id="INSTR_ASSET" value="F"/>
+<generic:Value id="MATURITY" value="_Z"/>
+<generic:Value id="UNIT_MEASURE" value="EUR"/>
+<generic:Value id="CURRENCY_DENOM" value="_T"/>
+<generic:Value id="VALUATION" value="_X"/>
+<generic:Value id="COMP_METHOD" value="N"/>
+</generic:SeriesKey>
+<generic:Attributes>
+<generic:Value id="COMMENT_TS" value="- Quarterly- Neither seasonally adjusted nor calendar adjusted data- Euro area 19 (fixed composition) as of 1 January 2015 vis-a-vis Rest of the World- sector: Other sectors than MFIs vis-a-vis Total economy- Transactions- Assets (Net Acquisition of)- Financial account- Direct Investment- Total financial assets/liabilities- Euro- All currencies- Compilation methodology based on international standards"/>
+<generic:Value id="TITLE" value="Direct Investment, Total financial assets/liabilities"/>
+<generic:Value id="TIME_PER_COLLECT" value="S"/>
+<generic:Value id="TIME_FORMAT" value="P3M"/>
+<generic:Value id="COMPILING_ORG" value="4F0"/>
+<generic:Value id="DECIMALS" value="0"/>
+<generic:Value id="UNIT_MULT" value="6"/>
+</generic:Attributes>
+<generic:Obs>
+<generic:ObsDimension value="2008-Q1"/>
+<generic:ObsValue value="158813.745366074"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="P"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2008-Q2"/>
+<generic:ObsValue value="55136.81319118807"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="P"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2008-Q3"/>
+<generic:ObsValue value="136268.1225424466"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="P"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2008-Q4"/>
+<generic:ObsValue value="20203.473740257614"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="P"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2009-Q1"/>
+<generic:ObsValue value="81847.79387208886"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="P"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2009-Q2"/>
+<generic:ObsValue value="4460.404719292761"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="P"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2009-Q3"/>
+<generic:ObsValue value="97584.62155101981"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="P"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2009-Q4"/>
+<generic:ObsValue value="102102.93481074099"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="P"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2010-Q1"/>
+<generic:ObsValue value="88631.98229082908"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="P"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2010-Q2"/>
+<generic:ObsValue value="132497.5657982412"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="P"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2010-Q3"/>
+<generic:ObsValue value="113067.38908262654"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="P"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2010-Q4"/>
+<generic:ObsValue value="16908.611300703626"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="P"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2011-Q1"/>
+<generic:ObsValue value="164649.3841315945"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="P"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2011-Q2"/>
+<generic:ObsValue value="66581.5793847113"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="P"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2011-Q3"/>
+<generic:ObsValue value="101453.85351462281"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="P"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2011-Q4"/>
+<generic:ObsValue value="164375.7331949252"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="P"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2012-Q1"/>
+<generic:ObsValue value="169297.99102223187"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="P"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2012-Q2"/>
+<generic:ObsValue value="117163.01365124973"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="P"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2012-Q3"/>
+<generic:ObsValue value="133730.34704426304"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="P"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2012-Q4"/>
+<generic:ObsValue value="140860.36186729182"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="P"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2013-Q1"/>
+<generic:ObsValue value="138371.75342956255"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2013-Q2"/>
+<generic:ObsValue value="144062.318904625"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2013-Q3"/>
+<generic:ObsValue value="87702.44254773438"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2013-Q4"/>
+<generic:ObsValue value="241987.4775015313"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2014-Q1"/>
+<generic:ObsValue value="54102.920963156255"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2014-Q2"/>
+<generic:ObsValue value="24960.80350971874"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2014-Q3"/>
+<generic:ObsValue value="107398.18254874216"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2014-Q4"/>
+<generic:ObsValue value="59472.71981730078"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2015-Q1"/>
+<generic:ObsValue value="370245.87402878125"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2015-Q2"/>
+<generic:ObsValue value="142687.54267093752"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2015-Q3"/>
+<generic:ObsValue value="175401.17683478128"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2015-Q4"/>
+<generic:ObsValue value="351626.3263318751"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2016-Q1"/>
+<generic:ObsValue value="180705.633074875"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2016-Q2"/>
+<generic:ObsValue value="70721.8781103125"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2016-Q3"/>
+<generic:ObsValue value="88862.99563408985"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2016-Q4"/>
+<generic:ObsValue value="81034.70697246872"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2017-Q1"/>
+<generic:ObsValue value="251749.43060799025"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2017-Q2"/>
+<generic:ObsValue value="137363.689582125"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2017-Q3"/>
+<generic:ObsValue value="-106046.42896130471"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2017-Q4"/>
+<generic:ObsValue value="49156.19362062499"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2018-Q1"/>
+<generic:ObsValue value="74026.11032178125"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2018-Q2"/>
+<generic:ObsValue value="28382.93628492187"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2018-Q3"/>
+<generic:ObsValue value="-97192.73386206255"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2018-Q4"/>
+<generic:ObsValue value="-319556.21206113766"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2019-Q1"/>
+<generic:ObsValue value="145014.01098440622"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2019-Q2"/>
+<generic:ObsValue value="-159933.23073943742"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2019-Q3"/>
+<generic:ObsValue value="181289.09713442583"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2019-Q4"/>
+<generic:ObsValue value="-168855.82200575"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2020-Q1"/>
+<generic:ObsValue value="-51082.669281437506"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2020-Q2"/>
+<generic:ObsValue value="48001.70519607032"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2020-Q3"/>
+<generic:ObsValue value="27130.357017281247"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2020-Q4"/>
+<generic:ObsValue value="-42532.442351765625"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2021-Q1"/>
+<generic:ObsValue value="126710.25589630274"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2021-Q2"/>
+<generic:ObsValue value="5386.310761312505"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2021-Q3"/>
+<generic:ObsValue value="42625.681437562496"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2021-Q4"/>
+<generic:ObsValue value="-25793.606176539077"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+<generic:Obs>
+<generic:ObsDimension value="2022-Q1"/>
+<generic:ObsValue value="64463.866001"/>
+<generic:Attributes>
+<generic:Value id="OBS_STATUS" value="A"/>
+<generic:Value id="CONF_STATUS" value="F"/>
+</generic:Attributes>
+</generic:Obs>
+</generic:Series>
+</message:DataSet>
+</message:GenericData>
